@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600C407D1F8B59A700487E44 /* DropDownMenu_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C407C1F8B59A700487E44 /* DropDownMenu_Test.swift */; };
+		6018D7181F78B30A005935BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D7171F78B30A005935BE /* AppDelegate.swift */; };
+		6018D71A1F78B30A005935BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D7191F78B30A005935BE /* ViewController.swift */; };
+		6018D71D1F78B30A005935BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6018D71B1F78B30A005935BE /* Main.storyboard */; };
+		6018D71F1F78B30A005935BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6018D71E1F78B30A005935BE /* Assets.xcassets */; };
+		6018D7221F78B30A005935BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6018D7201F78B30A005935BE /* LaunchScreen.storyboard */; };
+		6018D72D1F78B30B005935BE /* OperaMobileDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D72C1F78B30B005935BE /* OperaMobileDemoTests.swift */; };
+		6018D7381F78B30B005935BE /* OperaMobileDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D7371F78B30B005935BE /* OperaMobileDemoUITests.swift */; };
+		6018D7461F78B31F005935BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6018D7451F78B31F005935BE /* Podfile */; };
+		603FCA451F8C7878001D6DF0 /* DropMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FCA441F8C7878001D6DF0 /* DropMenus.swift */; };
+		603FCA471F8C7D78001D6DF0 /* HotelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */; };
+		6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6040C4291F79E94F007DD475 /* ScrollView.swift */; };
+		604827681F7B7E8700ED64B2 /* AlartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604827671F7B7E8700ED64B2 /* AlartView.swift */; };
+		60E4F4501F7CE91900F785A0 /* NavigationDrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F44F1F7CE91900F785A0 /* NavigationDrawerVC.swift */; };
+		60E4F4521F7CEAFF00F785A0 /* NagivationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F4511F7CEAFE00F785A0 /* NagivationDrawer.swift */; };
+		60E4F4541F7CEBA100F785A0 /* NavigationDrawerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F4531F7CEBA100F785A0 /* NavigationDrawerOptions.swift */; };
+		60E4F4561F7CEFED00F785A0 /* DrawerBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F4551F7CEFED00F785A0 /* DrawerBackView.swift */; };
+		60EECC191F8CBD9500866A4C /* HotelDetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EECC181F8CBD9500866A4C /* HotelDetailTableCell.swift */; };
+		60EFA1921F8B3A930092B05C /* HotelListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFA1911F8B3A930092B05C /* HotelListVC.swift */; };
+		60F1B71E1F7A082500E62479 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1B71D1F7A082500E62479 /* SettingView.swift */; };
+		60F1D4411F8C97EA00B7DB70 /* HotelListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */; };
+		60F1D4431F8CB23600B7DB70 /* HotelDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */; };
+		60F3367C1F79EFBC00481A10 /* CheckViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */; };
+		60F4A4DB1F78E2B200385A30 /* CJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */; };
+		60F4A4DC1F78E2B200385A30 /* CJMonthDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */; };
+		60F4A4DD1F78E2B200385A30 /* CJYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */; };
+		60F4A4DE1F78E2B200385A30 /* CJUseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D01F78E2B200385A30 /* CJUseTime.m */; };
+		60F4A4DF1F78E2B200385A30 /* CJDecisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D31F78E2B200385A30 /* CJDecisionView.m */; };
+		60F4A4E01F78E2B200385A30 /* CJMonthDayCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */; };
+		60F4A4E11F78E2B200385A30 /* CJMonthDayCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */; };
+		60F4A4E21F78E2B200385A30 /* CJSelectTimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */; };
+		60F4A4E31F78E2B200385A30 /* CJShowTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */; };
+		60F4A4E51F78FFF400385A30 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E41F78FFF400385A30 /* CalendarVC.swift */; };
+		60F4A4E71F79090D00385A30 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E61F79090D00385A30 /* service.swift */; };
+		60F889B81F7A3E5C00FBD656 /* DateStrFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */; };
+		D4268B1856080A224F768F55 /* Pods_OperaMobileDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB5DA069115851A90BFAA66 /* Pods_OperaMobileDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6018D7291F78B30B005935BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6018D70C1F78B30A005935BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6018D7131F78B30A005935BE;
+			remoteInfo = OperaMobileDemo;
+		};
+		6018D7341F78B30B005935BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6018D70C1F78B30A005935BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6018D7131F78B30A005935BE;
+			remoteInfo = OperaMobileDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB5DA069115851A90BFAA66 /* Pods_OperaMobileDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OperaMobileDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600C407C1F8B59A700487E44 /* DropDownMenu_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownMenu_Test.swift; sourceTree = "<group>"; };
+		6018D7141F78B30A005935BE /* OperaMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OperaMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6018D7171F78B30A005935BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6018D7191F78B30A005935BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6018D71C1F78B30A005935BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6018D71E1F78B30A005935BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6018D7211F78B30A005935BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6018D7231F78B30A005935BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6018D7281F78B30B005935BE /* OperaMobileDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperaMobileDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6018D72C1F78B30B005935BE /* OperaMobileDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaMobileDemoTests.swift; sourceTree = "<group>"; };
+		6018D72E1F78B30B005935BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6018D7331F78B30B005935BE /* OperaMobileDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperaMobileDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6018D7371F78B30B005935BE /* OperaMobileDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaMobileDemoUITests.swift; sourceTree = "<group>"; };
+		6018D7391F78B30B005935BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6018D7451F78B31F005935BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		601945D41F78D554009A8247 /* OperaMobileDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OperaMobileDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		603FCA441F8C7878001D6DF0 /* DropMenus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenus.swift; sourceTree = "<group>"; };
+		603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelInfo.swift; sourceTree = "<group>"; };
+		6040C4291F79E94F007DD475 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		604827671F7B7E8700ED64B2 /* AlartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlartView.swift; sourceTree = "<group>"; };
+		60E4F44F1F7CE91900F785A0 /* NavigationDrawerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerVC.swift; sourceTree = "<group>"; };
+		60E4F4511F7CEAFE00F785A0 /* NagivationDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NagivationDrawer.swift; sourceTree = "<group>"; };
+		60E4F4531F7CEBA100F785A0 /* NavigationDrawerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerOptions.swift; sourceTree = "<group>"; };
+		60E4F4551F7CEFED00F785A0 /* DrawerBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerBackView.swift; sourceTree = "<group>"; };
+		60EECC181F8CBD9500866A4C /* HotelDetailTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelDetailTableCell.swift; sourceTree = "<group>"; };
+		60EFA1911F8B3A930092B05C /* HotelListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelListVC.swift; sourceTree = "<group>"; };
+		60F1B71D1F7A082500E62479 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelListTableCell.swift; sourceTree = "<group>"; };
+		60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelDetailVC.swift; sourceTree = "<group>"; };
+		60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewConroller.swift; sourceTree = "<group>"; };
+		60F4A43C1F78DAB700385A30 /* CJCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CJCalendar; sourceTree = "<group>"; };
+		60F4A4C81F78E2B200385A30 /* CJCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCalendarViewController.h; sourceTree = "<group>"; };
+		60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCalendarViewController.m; sourceTree = "<group>"; };
+		60F4A4CA1F78E2B200385A30 /* CJMonthDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMonthDayViewController.h; sourceTree = "<group>"; };
+		60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayViewController.m; sourceTree = "<group>"; };
+		60F4A4CC1F78E2B200385A30 /* CJYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJYearViewController.h; sourceTree = "<group>"; };
+		60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJYearViewController.m; sourceTree = "<group>"; };
+		60F4A4CF1F78E2B200385A30 /* CJUseTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJUseTime.h; sourceTree = "<group>"; };
+		60F4A4D01F78E2B200385A30 /* CJUseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJUseTime.m; sourceTree = "<group>"; };
+		60F4A4D21F78E2B200385A30 /* CJDecisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDecisionView.h; sourceTree = "<group>"; };
+		60F4A4D31F78E2B200385A30 /* CJDecisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDecisionView.m; sourceTree = "<group>"; };
+		60F4A4D41F78E2B200385A30 /* CJMonthDayCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMonthDayCollectionCell.h; sourceTree = "<group>"; };
+		60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayCollectionCell.m; sourceTree = "<group>"; };
+		60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJMonthDayCollectionCell.xib; sourceTree = "<group>"; };
+		60F4A4D71F78E2B200385A30 /* CJSelectTimeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSelectTimeScrollView.h; sourceTree = "<group>"; };
+		60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSelectTimeScrollView.m; sourceTree = "<group>"; };
+		60F4A4D91F78E2B200385A30 /* CJShowTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJShowTimeView.h; sourceTree = "<group>"; };
+		60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJShowTimeView.m; sourceTree = "<group>"; };
+		60F4A4E41F78FFF400385A30 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		60F4A4E61F79090D00385A30 /* service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
+		60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateStrFormat.swift; sourceTree = "<group>"; };
+		816A326D93583EABF8D8C737 /* Pods-OperaMobileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OperaMobileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5A206F089314CA589424031 /* Pods-OperaMobileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OperaMobileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6018D7111F78B30A005935BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4268B1856080A224F768F55 /* Pods_OperaMobileDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D7251F78B30B005935BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D7301F78B30B005935BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5F85842DD36F8D808F7E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A43C1F78DAB700385A30 /* CJCalendar */,
+				4BB5DA069115851A90BFAA66 /* Pods_OperaMobileDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6018D70B1F78B30A005935BE = {
+			isa = PBXGroup;
+			children = (
+				6018D7451F78B31F005935BE /* Podfile */,
+				60F4A4C61F78E2B200385A30 /* calendar */,
+				6018D7161F78B30A005935BE /* OperaMobileDemo */,
+				6018D72B1F78B30B005935BE /* OperaMobileDemoTests */,
+				6018D7361F78B30B005935BE /* OperaMobileDemoUITests */,
+				6018D7151F78B30A005935BE /* Products */,
+				AFA781F81BB9F25C331973A8 /* Pods */,
+				1C5F85842DD36F8D808F7E7E /* Frameworks */,
+				601945D41F78D554009A8247 /* OperaMobileDemo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		6018D7151F78B30A005935BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6018D7141F78B30A005935BE /* OperaMobileDemo.app */,
+				6018D7281F78B30B005935BE /* OperaMobileDemoTests.xctest */,
+				6018D7331F78B30B005935BE /* OperaMobileDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6018D7161F78B30A005935BE /* OperaMobileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6034BA841F7CD8260014B1C8 /* model */,
+				60F889B61F7A36BF00FBD656 /* service */,
+				601945D81F78D617009A8247 /* controller */,
+				601945D71F78D60C009A8247 /* view */,
+				6018D7171F78B30A005935BE /* AppDelegate.swift */,
+				6018D71B1F78B30A005935BE /* Main.storyboard */,
+				6018D71E1F78B30A005935BE /* Assets.xcassets */,
+				6018D7201F78B30A005935BE /* LaunchScreen.storyboard */,
+				6018D7231F78B30A005935BE /* Info.plist */,
+				60F4A4E61F79090D00385A30 /* service.swift */,
+			);
+			path = OperaMobileDemo;
+			sourceTree = "<group>";
+		};
+		6018D72B1F78B30B005935BE /* OperaMobileDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6018D72C1F78B30B005935BE /* OperaMobileDemoTests.swift */,
+				6018D72E1F78B30B005935BE /* Info.plist */,
+			);
+			path = OperaMobileDemoTests;
+			sourceTree = "<group>";
+		};
+		6018D7361F78B30B005935BE /* OperaMobileDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6018D7371F78B30B005935BE /* OperaMobileDemoUITests.swift */,
+				6018D7391F78B30B005935BE /* Info.plist */,
+			);
+			path = OperaMobileDemoUITests;
+			sourceTree = "<group>";
+		};
+		601945D71F78D60C009A8247 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6040C4291F79E94F007DD475 /* ScrollView.swift */,
+				60F1B71D1F7A082500E62479 /* SettingView.swift */,
+				604827671F7B7E8700ED64B2 /* AlartView.swift */,
+				60E4F4551F7CEFED00F785A0 /* DrawerBackView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		601945D81F78D617009A8247 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6018D7191F78B30A005935BE /* ViewController.swift */,
+				60F4A4E41F78FFF400385A30 /* CalendarVC.swift */,
+				60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */,
+				60E4F44F1F7CE91900F785A0 /* NavigationDrawerVC.swift */,
+				60EFA1911F8B3A930092B05C /* HotelListVC.swift */,
+				60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		6034BA841F7CD8260014B1C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				60E4F4511F7CEAFE00F785A0 /* NagivationDrawer.swift */,
+				60E4F4531F7CEBA100F785A0 /* NavigationDrawerOptions.swift */,
+				600C407C1F8B59A700487E44 /* DropDownMenu_Test.swift */,
+				603FCA441F8C7878001D6DF0 /* DropMenus.swift */,
+				603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */,
+				60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */,
+				60EECC181F8CBD9500866A4C /* HotelDetailTableCell.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		60F4A4C61F78E2B200385A30 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A4C71F78E2B200385A30 /* controller */,
+				60F4A4CE1F78E2B200385A30 /* service */,
+				60F4A4D11F78E2B200385A30 /* view */,
+			);
+			name = calendar;
+			path = CJCalendar/CJCalendar/calendar;
+			sourceTree = "<group>";
+		};
+		60F4A4C71F78E2B200385A30 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A4C81F78E2B200385A30 /* CJCalendarViewController.h */,
+				60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */,
+				60F4A4CA1F78E2B200385A30 /* CJMonthDayViewController.h */,
+				60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */,
+				60F4A4CC1F78E2B200385A30 /* CJYearViewController.h */,
+				60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		60F4A4CE1F78E2B200385A30 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A4CF1F78E2B200385A30 /* CJUseTime.h */,
+				60F4A4D01F78E2B200385A30 /* CJUseTime.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		60F4A4D11F78E2B200385A30 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A4D21F78E2B200385A30 /* CJDecisionView.h */,
+				60F4A4D31F78E2B200385A30 /* CJDecisionView.m */,
+				60F4A4D41F78E2B200385A30 /* CJMonthDayCollectionCell.h */,
+				60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */,
+				60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */,
+				60F4A4D71F78E2B200385A30 /* CJSelectTimeScrollView.h */,
+				60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */,
+				60F4A4D91F78E2B200385A30 /* CJShowTimeView.h */,
+				60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		60F889B61F7A36BF00FBD656 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		AFA781F81BB9F25C331973A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5A206F089314CA589424031 /* Pods-OperaMobileDemo.debug.xcconfig */,
+				816A326D93583EABF8D8C737 /* Pods-OperaMobileDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6018D7131F78B30A005935BE /* OperaMobileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6018D73C1F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemo" */;
+			buildPhases = (
+				72907E9F69C2838237979F44 /* [CP] Check Pods Manifest.lock */,
+				6018D7101F78B30A005935BE /* Sources */,
+				6018D7111F78B30A005935BE /* Frameworks */,
+				6018D7121F78B30A005935BE /* Resources */,
+				1E63CE8E14DE74689729673F /* [CP] Embed Pods Frameworks */,
+				3237CF111EF1DB0C36C89BEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OperaMobileDemo;
+			productName = OperaMobileDemo;
+			productReference = 6018D7141F78B30A005935BE /* OperaMobileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6018D7271F78B30B005935BE /* OperaMobileDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6018D73F1F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemoTests" */;
+			buildPhases = (
+				6018D7241F78B30B005935BE /* Sources */,
+				6018D7251F78B30B005935BE /* Frameworks */,
+				6018D7261F78B30B005935BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6018D72A1F78B30B005935BE /* PBXTargetDependency */,
+			);
+			name = OperaMobileDemoTests;
+			productName = OperaMobileDemoTests;
+			productReference = 6018D7281F78B30B005935BE /* OperaMobileDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6018D7321F78B30B005935BE /* OperaMobileDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6018D7421F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemoUITests" */;
+			buildPhases = (
+				6018D72F1F78B30B005935BE /* Sources */,
+				6018D7301F78B30B005935BE /* Frameworks */,
+				6018D7311F78B30B005935BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6018D7351F78B30B005935BE /* PBXTargetDependency */,
+			);
+			name = OperaMobileDemoUITests;
+			productName = OperaMobileDemoUITests;
+			productReference = 6018D7331F78B30B005935BE /* OperaMobileDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6018D70C1F78B30A005935BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZhangJun;
+				TargetAttributes = {
+					6018D7131F78B30A005935BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2G6BCL8E;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					6018D7271F78B30B005935BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2G6BCL8E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6018D7131F78B30A005935BE;
+					};
+					6018D7321F78B30B005935BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2G6BCL8E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6018D7131F78B30A005935BE;
+					};
+				};
+			};
+			buildConfigurationList = 6018D70F1F78B30A005935BE /* Build configuration list for PBXProject "OperaMobileDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6018D70B1F78B30A005935BE;
+			productRefGroup = 6018D7151F78B30A005935BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6018D7131F78B30A005935BE /* OperaMobileDemo */,
+				6018D7271F78B30B005935BE /* OperaMobileDemoTests */,
+				6018D7321F78B30B005935BE /* OperaMobileDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6018D7121F78B30A005935BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6018D7221F78B30A005935BE /* LaunchScreen.storyboard in Resources */,
+				60F4A4E11F78E2B200385A30 /* CJMonthDayCollectionCell.xib in Resources */,
+				6018D71F1F78B30A005935BE /* Assets.xcassets in Resources */,
+				6018D7461F78B31F005935BE /* Podfile in Resources */,
+				6018D71D1F78B30A005935BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D7261F78B30B005935BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D7311F78B30B005935BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E63CE8E14DE74689729673F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ModernSearchBar/ModernSearchBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/YNSearch/YNSearch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModernSearchBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNSearch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3237CF111EF1DB0C36C89BEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72907E9F69C2838237979F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OperaMobileDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6018D7101F78B30A005935BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E4F4501F7CE91900F785A0 /* NavigationDrawerVC.swift in Sources */,
+				60F4A4DE1F78E2B200385A30 /* CJUseTime.m in Sources */,
+				6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */,
+				60F4A4E71F79090D00385A30 /* service.swift in Sources */,
+				60F4A4DF1F78E2B200385A30 /* CJDecisionView.m in Sources */,
+				600C407D1F8B59A700487E44 /* DropDownMenu_Test.swift in Sources */,
+				604827681F7B7E8700ED64B2 /* AlartView.swift in Sources */,
+				60F4A4E51F78FFF400385A30 /* CalendarVC.swift in Sources */,
+				60F1D4411F8C97EA00B7DB70 /* HotelListTableCell.swift in Sources */,
+				6018D71A1F78B30A005935BE /* ViewController.swift in Sources */,
+				60F1B71E1F7A082500E62479 /* SettingView.swift in Sources */,
+				60F4A4E01F78E2B200385A30 /* CJMonthDayCollectionCell.m in Sources */,
+				60F4A4E31F78E2B200385A30 /* CJShowTimeView.m in Sources */,
+				60F4A4E21F78E2B200385A30 /* CJSelectTimeScrollView.m in Sources */,
+				60F4A4DD1F78E2B200385A30 /* CJYearViewController.m in Sources */,
+				60E4F4541F7CEBA100F785A0 /* NavigationDrawerOptions.swift in Sources */,
+				60F3367C1F79EFBC00481A10 /* CheckViewConroller.swift in Sources */,
+				60E4F4521F7CEAFF00F785A0 /* NagivationDrawer.swift in Sources */,
+				60E4F4561F7CEFED00F785A0 /* DrawerBackView.swift in Sources */,
+				60F1D4431F8CB23600B7DB70 /* HotelDetailVC.swift in Sources */,
+				603FCA471F8C7D78001D6DF0 /* HotelInfo.swift in Sources */,
+				603FCA451F8C7878001D6DF0 /* DropMenus.swift in Sources */,
+				60F4A4DC1F78E2B200385A30 /* CJMonthDayViewController.m in Sources */,
+				6018D7181F78B30A005935BE /* AppDelegate.swift in Sources */,
+				60EECC191F8CBD9500866A4C /* HotelDetailTableCell.swift in Sources */,
+				60F889B81F7A3E5C00FBD656 /* DateStrFormat.swift in Sources */,
+				60F4A4DB1F78E2B200385A30 /* CJCalendarViewController.m in Sources */,
+				60EFA1921F8B3A930092B05C /* HotelListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D7241F78B30B005935BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6018D72D1F78B30B005935BE /* OperaMobileDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6018D72F1F78B30B005935BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6018D7381F78B30B005935BE /* OperaMobileDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6018D72A1F78B30B005935BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6018D7131F78B30A005935BE /* OperaMobileDemo */;
+			targetProxy = 6018D7291F78B30B005935BE /* PBXContainerItemProxy */;
+		};
+		6018D7351F78B30B005935BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6018D7131F78B30A005935BE /* OperaMobileDemo */;
+			targetProxy = 6018D7341F78B30B005935BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6018D71B1F78B30A005935BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6018D71C1F78B30A005935BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6018D7201F78B30A005935BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6018D7211F78B30A005935BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6018D73A1F78B30B005935BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6018D73B1F78B30B005935BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6018D73D1F78B30B005935BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A206F089314CA589424031 /* Pods-OperaMobileDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		6018D73E1F78B30B005935BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816A326D93583EABF8D8C737 /* Pods-OperaMobileDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+		6018D7401F78B30B005935BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OperaMobileDemo.app/OperaMobileDemo";
+			};
+			name = Debug;
+		};
+		6018D7411F78B30B005935BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OperaMobileDemo.app/OperaMobileDemo";
+			};
+			name = Release;
+		};
+		6018D7431F78B30B005935BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OperaMobileDemo;
+			};
+			name = Debug;
+		};
+		6018D7441F78B30B005935BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2G6BCL8E;
+				INFOPLIST_FILE = OperaMobileDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OperaMobileDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6018D70F1F78B30A005935BE /* Build configuration list for PBXProject "OperaMobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6018D73A1F78B30B005935BE /* Debug */,
+				6018D73B1F78B30B005935BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6018D73C1F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6018D73D1F78B30B005935BE /* Debug */,
+				6018D73E1F78B30B005935BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6018D73F1F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6018D7401F78B30B005935BE /* Debug */,
+				6018D7411F78B30B005935BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6018D7421F78B30B005935BE /* Build configuration list for PBXNativeTarget "OperaMobileDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6018D7431F78B30B005935BE /* Debug */,
+				6018D7441F78B30B005935BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6018D70C1F78B30A005935BE /* Project object */;
+}

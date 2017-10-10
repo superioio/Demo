@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C7DCAE41257B18F7D7B2BF64569B82AA66E99A14",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "77FC11E5A0A5560B68B285B74C387AA20CDFDB3B" : 9223372036854775807,
+    "C7DCAE41257B18F7D7B2BF64569B82AA66E99A14" : 9223372036854775807,
+    "C52768E4D478F442168BDE00ACC01D8C2B0894DF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8183A0EA-EF47-42B4-A029-8832BEA66E2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "77FC11E5A0A5560B68B285B74C387AA20CDFDB3B" : "",
+    "C7DCAE41257B18F7D7B2BF64569B82AA66E99A14" : "OperaMobileDemo\/",
+    "C52768E4D478F442168BDE00ACC01D8C2B0894DF" : "OperaMobileDemo\/CJCalendar\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OperaMobileDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OperaMobileDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/superioio\/test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77FC11E5A0A5560B68B285B74C387AA20CDFDB3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chjsun\/CJCalendar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C52768E4D478F442168BDE00ACC01D8C2B0894DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/superioio\/OperaDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7DCAE41257B18F7D7B2BF64569B82AA66E99A14"
+    }
+  ]
+}
