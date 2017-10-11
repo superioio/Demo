@@ -33,7 +33,7 @@ class DrawerViewController: UIViewController,UITableViewDataSource,UITableViewDe
         tableView.delegate = self
         
         SetUserInfo()
-        }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -41,9 +41,10 @@ class DrawerViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     
     func SetUserInfo() {
-        photoShow()
+
         lblUser.text = user
         lblEmail.text = email
+        photoShow()
     }
     
     var user:String?
@@ -146,11 +147,14 @@ class DrawerViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     
     func photoShow() {
-       // let image = UIImage(named: "city")
+        if user != "User"{
+            let image = UIImage(named: "shulan")
+            photoImage.image = image
+        }
         photoImage.layer.cornerRadius = photoImage.bounds.height/2
         photoImage.layer.masksToBounds = true
-        photoImage.layer.borderWidth = 1
-        // photoImage.image = image
+      //  photoImage.layer.borderWidth = 1
+      
         
     }
     

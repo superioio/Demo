@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct  RoomInfo {
+    
+    var roomName :String
+    var price:Int
+    var discount:Int
+    var imageStr:String
+}

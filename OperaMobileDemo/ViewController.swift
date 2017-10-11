@@ -53,8 +53,8 @@ class ViewController: UIViewController {
         let cv = sb.instantiateViewController(withIdentifier: "CheckView") as! CheckViewConroller
 //        cv.user = "UserName"
 //        cv.email = "Email"
-        cv.user = "Zhang.Jun"
-        cv.email = "jun.ju.zhang@oracle.com"
+        cv.user = "User"
+        cv.email = "Email"
         //  cv.delegate = self
         //self.navigationController?.pushViewController(cv, animated: true)
         self.present(cv, animated: true, completion: nil)

@@ -243,10 +243,6 @@
                                 <rect key="frame" x="0.0" y="20" width="275" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city" translatesAutoresizingMaskIntoConstraints="NO" id="E32-cR-bnd">
-                                <rect key="frame" x="26" y="28" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aID-kx-6af">
                                 <rect key="frame" x="9" y="136" width="178" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -261,6 +257,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_no_user" translatesAutoresizingMaskIntoConstraints="NO" id="E32-cR-bnd">
+                                <rect key="frame" x="16" y="28" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -307,68 +307,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture2" translatesAutoresizingMaskIntoConstraints="NO" id="fV2-km-cHs">
-                                <rect key="frame" x="0.0" y="20" width="375" height="195"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="D1h-Jr-mbV">
-                                <rect key="frame" x="16" y="223" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="ets-fw-aeW">
-                                <rect key="frame" x="50" y="223" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="bOD-gW-tEO">
-                                <rect key="frame" x="117" y="223" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="MxC-Ys-uRw">
-                                <rect key="frame" x="84" y="223" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="Cy7-Gh-0FC">
-                                <rect key="frame" x="151" y="223" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8HH-qF-JAP">
-                                <rect key="frame" x="0.0" y="269" width="375" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Hilton has 14 brands across different market segments, including Conrad Hotels &amp; Resorts, Canopy by Hilton, Curio - A Collection by Hilton, Hilton Hotels &amp; Resorts, DoubleTree by Hilton, Embassy Suites Hotels, Hilton Garden Inn, Hampton by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, Hilton Grand Vacations and Waldorf Astoria Hotels &amp; Resorts, Tru by Hilton, and Tapestry Collection by Hilton.
-On December 12, 2013, Hilton again became a public company, raising an estimated $2.35 billion in its second IPO. At the time, The Blackstone Group held a 45.8 percent stake in the company.[6] In October 2016, HNA Group agreed to acquire a 25 percent equity interest in Hilton from Blackstone. The transaction was expected to close in the first quarter of 2017. Hilton's largest stockholders are HNA Group, Blackstone, and Wellington Management Group, which own 25%, 15.2%, and 6.7% of Hilton common stock respectively.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-UJ-XZ1">
-                                <rect key="frame" x="0.0" y="28" width="16" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" image="back"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPc-Hs-rBV">
-                                <rect key="frame" x="0.0" y="21" width="129" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Hilton">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backToPrevious" destination="qIF-5C-u1a" eventType="touchUpInside" id="R6j-7X-gw7"/>
-                                </connections>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d1o-zH-re3">
-                                <rect key="frame" x="0.0" y="418" width="375" height="249"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="250" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d1o-zH-re3">
+                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZSS-6w-Fbs">
+                                <rect key="frame" x="0.0" y="20" width="375" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture2" translatesAutoresizingMaskIntoConstraints="NO" id="fV2-km-cHs">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="D1h-Jr-mbV">
+                                        <rect key="frame" x="16" y="203" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="ets-fw-aeW">
+                                        <rect key="frame" x="50" y="203" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="bOD-gW-tEO">
+                                        <rect key="frame" x="117" y="203" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="MxC-Ys-uRw">
+                                        <rect key="frame" x="84" y="203" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_star_64" translatesAutoresizingMaskIntoConstraints="NO" id="Cy7-Gh-0FC">
+                                        <rect key="frame" x="151" y="203" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8HH-qF-JAP">
+                                        <rect key="frame" x="0.0" y="249" width="375" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Hilton has 14 brands across different market segments, including Conrad Hotels &amp; Resorts, Canopy by Hilton, Curio - A Collection by Hilton, Hilton Hotels &amp; Resorts, DoubleTree by Hilton, Embassy Suites Hotels, Hilton Garden Inn, Hampton by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, Hilton Grand Vacations and Waldorf Astoria Hotels &amp; Resorts, Tru by Hilton, and Tapestry Collection by Hilton.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-UJ-XZ1">
+                                        <rect key="frame" x="0.0" y="8" width="16" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="back"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPc-Hs-rBV">
+                                        <rect key="frame" x="0.0" y="1" width="129" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Hilton">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backToPrevious" destination="qIF-5C-u1a" eventType="touchUpInside" id="R6j-7X-gw7"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PR6-0O-FxZ">
+                                        <rect key="frame" x="16" y="243" width="362" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headview" destination="ZSS-6w-Fbs" id="vAi-dt-N86"/>
+                        <outlet property="tableview" destination="d1o-zH-re3" id="vFc-DL-kah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTQ-B7-aCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="637.60000000000002" y="800.14992503748135"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="vPd-OI-yJB">
+            <objects>
+                <tableViewController id="Yhf-ro-4bK" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0T4-OE-gYU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mxD-qP-IK5">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mxD-qP-IK5" id="YoV-bs-S4g">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Yhf-ro-4bK" id="WP7-As-exD"/>
+                            <outlet property="delegate" destination="Yhf-ro-4bK" id="9H8-pD-XdN"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3YS-91-rGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1282" y="845"/>
         </scene>
         <!--Check View Conroller-->
         <scene sceneID="tne-QT-ifu">
@@ -419,7 +462,7 @@ On December 12, 2013, Hilton again became a public company, raising an estimated
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0S-Z3-sY1">
                                 <rect key="frame" x="4" y="436" width="366" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.071483964450000007" green="0.78031074369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.070588235294117646" green="0.7803921568627451" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="SEARCH">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -598,6 +641,7 @@ On December 12, 2013, Hilton again became a public company, raising an estimated
         <image name="city" width="284" height="177"/>
         <image name="google_travel_logo" width="660" height="659"/>
         <image name="ic_my_location_black_24dp" width="48" height="48"/>
+        <image name="ic_no_user" width="90" height="90"/>
         <image name="ic_user_background_first" width="512" height="288"/>
         <image name="icons8_star_64" width="64" height="64"/>
         <image name="picture2" width="1024" height="768"/>

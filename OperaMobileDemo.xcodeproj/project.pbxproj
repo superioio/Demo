@@ -16,6 +16,7 @@
 		6018D72D1F78B30B005935BE /* OperaMobileDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D72C1F78B30B005935BE /* OperaMobileDemoTests.swift */; };
 		6018D7381F78B30B005935BE /* OperaMobileDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018D7371F78B30B005935BE /* OperaMobileDemoUITests.swift */; };
 		6018D7461F78B31F005935BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6018D7451F78B31F005935BE /* Podfile */; };
+		6030BC5A1F8DC2FB005CF7A1 /* RoomInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6030BC591F8DC2FB005CF7A1 /* RoomInfo.swift */; };
 		603FCA451F8C7878001D6DF0 /* DropMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FCA441F8C7878001D6DF0 /* DropMenus.swift */; };
 		603FCA471F8C7D78001D6DF0 /* HotelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */; };
 		6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6040C4291F79E94F007DD475 /* ScrollView.swift */; };
@@ -80,6 +81,7 @@
 		6018D7391F78B30B005935BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6018D7451F78B31F005935BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		601945D41F78D554009A8247 /* OperaMobileDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OperaMobileDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6030BC591F8DC2FB005CF7A1 /* RoomInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomInfo.swift; sourceTree = "<group>"; };
 		603FCA441F8C7878001D6DF0 /* DropMenus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenus.swift; sourceTree = "<group>"; };
 		603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelInfo.swift; sourceTree = "<group>"; };
 		6040C4291F79E94F007DD475 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 				603FCA461F8C7D78001D6DF0 /* HotelInfo.swift */,
 				60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */,
 				60EECC181F8CBD9500866A4C /* HotelDetailTableCell.swift */,
+				6030BC591F8DC2FB005CF7A1 /* RoomInfo.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E4F4501F7CE91900F785A0 /* NavigationDrawerVC.swift in Sources */,
+				6030BC5A1F8DC2FB005CF7A1 /* RoomInfo.swift in Sources */,
 				60F4A4DE1F78E2B200385A30 /* CJUseTime.m in Sources */,
 				6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */,
 				60F4A4E71F79090D00385A30 /* service.swift in Sources */,
