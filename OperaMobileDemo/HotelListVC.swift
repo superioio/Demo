@@ -97,7 +97,10 @@ class HotelListVC: UIViewController,DOPDropDownMenuDataSource, DOPDropDownMenuDe
         super.viewDidLoad()
         
       //  self.title = "Oracle Building Z-Park 24"
-        naviItem.title = "Oracle Building Z-Park 24"
+      //  naviItem.title = "Oracle Building Z-Park 24"
+
+        btnBack.setTitle("Oracle Building Z-Park 24", for: .normal)
+        btnBack.setTitleColor(UIColor.white, for: .normal)
         dopMenu = DOPDropDownMenu(origin: CGPoint(x: 0, y: 72), height: 44)
         dopMenu.dataSource = self
         dopMenu.delegate = self
@@ -112,6 +115,7 @@ class HotelListVC: UIViewController,DOPDropDownMenuDataSource, DOPDropDownMenuDe
         InitHotelList()
     }
     @IBOutlet var naviItem:UINavigationItem!
+    @IBOutlet var btnBack:UIButton!
     
     @IBAction func backToPrevious() {
             dismiss(animated: true, completion: nil)

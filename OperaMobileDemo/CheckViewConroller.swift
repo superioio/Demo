@@ -205,9 +205,9 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
            // btnCheckIn.setTitle(year, for: .normal)
         }
         else{
-            btnCheckOut.setTitle(year, for: .normal)
+             btnCheckOut.setAttributedTitle(MuteableAttrStr(str1: DateStrFormat.GetMonthDayStr(mon:month,day:day),str2: DateStrFormat.GetWeekdayStr(DateStr: dateStr)), for: .normal)
         }
-        
+       
     }
     
     @IBAction func SearchPressed(){
@@ -227,8 +227,7 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     }
     
     func showDrawer() {
-
-        NavigationDrawer.sharedInstance.toggleNavigationDrawer(completionHandler: nil)
+     NavigationDrawer.sharedInstance.toggleNavigationDrawer(completionHandler: nil)
     }
     
     func MuteableAttrStr(str1:String,str2:String)->NSMutableAttributedString{
@@ -236,7 +235,7 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
 
         let monthday = NSAttributedString(string: str1, attributes:[NSForegroundColorAttributeName:UIColor.darkText, NSFontAttributeName:UIFont.boldSystemFont(ofSize: 21)])
        
-        let weekday = NSAttributedString(string: str2, attributes: [NSForegroundColorAttributeName:UIColor.darkText, NSFontAttributeName:UIFont.systemFont(ofSize: 5)])
+        let weekday = NSAttributedString(string: str2, attributes: [NSForegroundColorAttributeName:UIColor.darkText, NSFontAttributeName:UIFont.systemFont(ofSize: 8)])
 
         let space = "   "
         let spaceA = NSAttributedString(string: space, attributes: nil)
