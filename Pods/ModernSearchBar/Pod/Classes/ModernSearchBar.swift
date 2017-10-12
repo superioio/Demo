@@ -139,6 +139,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     public func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         if self.suggestionsView == nil { self.configureViews() }
         self.delegateModernSearchBar?.searchBarTextDidEndEditing?(searchBar)
+        
     }
     
     public func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
@@ -336,7 +337,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
         }
     }
     
-    private func closeSuggestionsView(){
+    public func closeSuggestionsView(){
         if (self.isSuggestionsViewOpened == true){
             self.animationClosing()
             self.isSuggestionsViewOpened = false
@@ -478,6 +479,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     
     private func getGlobalPointEditText() -> CGPoint {
         return self.getEditText().superview!.convert(self.getEditText().frame.origin, to: nil)
+       // self.superview!.frame.origin
     }
     
     // --------------------------------

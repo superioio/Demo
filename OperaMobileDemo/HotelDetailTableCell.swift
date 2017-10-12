@@ -39,7 +39,7 @@ class HotelDetailTableCell: UITableViewCell {
         self.contentView.addSubview(titleLabel!)
         
         //line
-        line = UIView(frame: CGRect(x: 20, y: cellHeight-58, width: 200, height: 1))
+        line = UIView(frame: CGRect(x: 20, y: cellHeight-58, width: 225, height: 1))
         line.backgroundColor = UIColor.lightGray
          self.contentView.addSubview(line!)
         
@@ -60,9 +60,9 @@ class HotelDetailTableCell: UITableViewCell {
             self.contentView.addSubview(discount!)
 
         //icon
-        wifiView = UIImageView(frame: CGRect(x:200, y:cellHeight-37, width:16, height:16))
+        wifiView = UIImageView(frame: CGRect(x:190, y:cellHeight-37, width:16, height:16))
         wifiView?.image =  UIImage(named: "icon_wifi")
-        dinnerView = UIImageView(frame: CGRect(x:225, y:cellHeight-37, width:16, height:16))
+        dinnerView = UIImageView(frame: CGRect(x:215, y:cellHeight-37, width:16, height:16))
         dinnerView?.image =  UIImage(named: "icon_dinner")
         self.contentView.addSubview(wifiView!)
         self.contentView.addSubview(dinnerView!)
@@ -71,9 +71,9 @@ class HotelDetailTableCell: UITableViewCell {
         bookbtn = UIButton(frame: CGRect(x: 280, y: cellHeight-45, width: 70, height: 30))
         bookbtn.layer.cornerRadius = 15
         bookbtn.layer.borderWidth = 1
-        bookbtn.layer.borderColor = UIColor.cyan.cgColor
+        bookbtn.layer.borderColor = UIColor(red: 0, green: 0.5, blue: 200, alpha: 1).cgColor
         bookbtn.setTitle("BOOK", for: .normal)
-        bookbtn.setTitleColor(UIColor.cyan, for: .normal)
+        bookbtn.setTitleColor(UIColor(red: 0, green: 0.5, blue: 200, alpha: 1), for: .normal)
         self.contentView.addSubview(bookbtn!)
 
         self.contentView.layer.borderColor = UIColor(white: 0, alpha: 0.1).cgColor

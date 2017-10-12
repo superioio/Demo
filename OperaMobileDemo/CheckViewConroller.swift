@@ -23,12 +23,11 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "DrawerViewController") as! DrawerViewController
         vc.user = user
         vc.email = email
-        
+
         navigationDrawer = NavigationDrawer.sharedInstance
         navigationDrawer.setup(withOptions: options)
         navigationDrawer.setNavigationDrawerController(viewController: vc)
 
-     //   naviItem.leftBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(showDrawer))
         SetUI()
     }
     
@@ -45,30 +44,52 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     func SetUI() {
         SetLayer()
         SetDateButton()
-        SetSearchBar()
+      //  SetSearchBar()
     }
     
 
     
     func SetSearchBar() {
         modernSearchBar.delegateModernSearchBar = self
+      //  modernSearchBar.delegate = self
+
         for t in modernSearchBar.subviews {
             if t.isKind(of: UITextField.self) {
                 let tf = t as! UITextField
                 tf.clearButtonMode = .never
             }
         }
-        modernSearchBar.backgroundImage = UIImage()
        // (modernSearchBar as UITextField).clearButtonMode = .never
         var suggestionList = Array<String>()
         suggestionList.append("Oracle Building Z-Park 24")
         suggestionList.append("Oracle Building Z-Park 23")
         suggestionList.append("Zhongguancun Soft Park")
-        self.modernSearchBar.setDatas(datas: suggestionList)
+        modernSearchBar.setDatas(datas: suggestionList)
     }
     
+    func editSearchBar() {
+        modernSearchBar.frame = CGRect(x: 5, y: 30, width: 200, height: 30)
+    }
+    
+//    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+//        modernSearchBar.frame = CGRect(x: 5, y: 30, width: 200, height: 30)
+//    }
+    public func searchBarTextDidEndEditing(_ searchBar: ModernSearchBarModel) {
+        let item = modernSearchBar.text
+        btnSearch.setTitle(item, for: .normal)
+         btnSearch.setTitleColor(.black, for: .normal)
+        modernSearchBar.isHidden = true
+        searchView.isHidden = true
+    }
     func onClickItemSuggestionsView(item: String) {
         print("User touched this item: "+item)
+
+        btnSearch.setTitle(item, for: .normal)
+        btnSearch.setTitleColor(.black, for: .normal)
+        searchView.isHidden = true
+        modernSearchBar.text = item
+        modernSearchBar.closeSuggestionsView()
+        modernSearchBar.isHidden = true
     }
     
     ///Called if you use Custom Item suggestion list
@@ -79,6 +100,8 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     ///Called when user touched shadowView
     func onClickShadowView(shadowView: UIView) {
         print("User touched shadowView")
+        searchView.isHidden = true
+        modernSearchBar.isHidden = true
     }
 //    func SetSearchBar() {
 //        let demoCategories = ["Menu", "Animation", "Transition", "TableView", "CollectionView", "Indicator", "Alert", "UIView", "UITextfield", "UITableView", "Swift", "iOS", "Android"]
@@ -176,12 +199,17 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     @IBOutlet var modernSearchBar: ModernSearchBar!
     @IBOutlet var btnSetting:UIButton!
         @IBOutlet var naviItem:UINavigationItem!
+    @IBOutlet var searchView:UIView!
+    @IBOutlet var btnSearch:UIButton!
+    
     var user:String?
     var email:String?
+    var checkInDate:Date?
+    var checkOutDate:Date?
     //@IBOutlet var barSearch: YNSearch!
     var navigationDrawer: NavigationDrawer!
     
-    var isCheckIn = true
+    var isCheckIn :Bool!
     
     @IBAction func CheckInPressed(){
         isCheckIn = true;
@@ -198,16 +226,43 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
         self.present(cj, animated: true, completion: nil)
     }
     
+    @IBAction func searchBarTextDidBeginEditing() {
+        searchView.isHidden = false
+        searchView.frame = CGRect(x: 0, y: 69, width: self.view.bounds.width, height: self.view.bounds.height-69)
+        searchView.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 0.9)
+        modernSearchBar.isHidden = false
+      //  modernSearchBar.clipsToBounds = true
+        modernSearchBar.becomeFirstResponder()
+      // modernSearchBar.frame = CGRect(x: 0, y: 5, width: self.view.bounds.width, height: 44)
+         SetSearchBar()
+    }
+    
     func calendarViewController(_ controller: CJCalendarViewController!, didSelectActionYear year: String!, month: String!, day: String!) {
-        let dateStr = year + "-" + month + "-" + day
+        let df = DateFormatter()
+        df.dateFormat = "yyyy-MM-dd"
+        
+        var dateStr = year + "-" + month + "-" + day
+        
         if isCheckIn {
             btnCheckIn.setAttributedTitle(MuteableAttrStr(str1: DateStrFormat.GetMonthDayStr(mon:month,day:day),str2: DateStrFormat.GetWeekdayStr(DateStr: dateStr)), for: .normal)
            // btnCheckIn.setTitle(year, for: .normal)
+            checkInDate = df.date(from: dateStr)
+            if checkOutDate == nil{
+                dateStr = year + "-" + month + "-\((Int(day))!+1)"
+                checkOutDate = df.date(from: dateStr)
+            }
         }
         else{
-             btnCheckOut.setAttributedTitle(MuteableAttrStr(str1: DateStrFormat.GetMonthDayStr(mon:month,day:day),str2: DateStrFormat.GetWeekdayStr(DateStr: dateStr)), for: .normal)
+            btnCheckOut.setAttributedTitle(MuteableAttrStr(str1: DateStrFormat.GetMonthDayStr(mon:month,day:day),str2: DateStrFormat.GetWeekdayStr(DateStr: dateStr)), for: .normal)
+            checkOutDate = df.date(from: dateStr)
+            if checkInDate == nil{
+              //  dateStr = year + "-" + month + "-\((Int(day))!)"
+                checkInDate = Date()
+            }
         }
-       
+        let interval:TimeInterval = (checkOutDate?.timeIntervalSince(checkInDate!))!
+        let daysnum = (Int(interval))/86400 <= 0 ? 1 : (Int(interval))/86400
+        lblDays.text = "\(daysnum) Day(s)"
     }
     
     @IBAction func SearchPressed(){
@@ -224,6 +279,7 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     
     @IBAction func MyLocationPressed(){
         modernSearchBar.text = "Oracle Building Z-Park 24"
+        btnSearch.setTitle("Oracle Building Z-Park 24", for: .normal)
     }
     
     func showDrawer() {
