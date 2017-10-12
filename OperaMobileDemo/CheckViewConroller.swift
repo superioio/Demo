@@ -44,22 +44,26 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     func SetUI() {
         SetLayer()
         SetDateButton()
-      //  SetSearchBar()
+        SetSearchBar()
+        
+        searchView.frame = CGRect(x: 0, y: 69, width: self.view.bounds.width, height: self.view.bounds.height-69)
+        searchView.backgroundColor = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 0.95)
+        
+    searchView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hiddenSearchView)))
+        
     }
     
-
+    func hiddenSearchView() {
+        searchView.isHidden = true
+          modernSearchBar.resignFirstResponder()
+        modernSearchBar.isHidden = true
+        btnSearch.setTitle(modernSearchBar.text, for: .normal)
+        btnSearch.setTitleColor(.black, for: .normal)
+    }
     
     func SetSearchBar() {
         modernSearchBar.delegateModernSearchBar = self
-      //  modernSearchBar.delegate = self
 
-        for t in modernSearchBar.subviews {
-            if t.isKind(of: UITextField.self) {
-                let tf = t as! UITextField
-                tf.clearButtonMode = .never
-            }
-        }
-       // (modernSearchBar as UITextField).clearButtonMode = .never
         var suggestionList = Array<String>()
         suggestionList.append("Oracle Building Z-Park 24")
         suggestionList.append("Oracle Building Z-Park 23")
@@ -74,12 +78,15 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
 //    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
 //        modernSearchBar.frame = CGRect(x: 5, y: 30, width: 200, height: 30)
 //    }
-    public func searchBarTextDidEndEditing(_ searchBar: ModernSearchBarModel) {
+    public func searchBarSearchButtonClicked(_ searchBar: ModernSearchBarModel) {
+
         let item = modernSearchBar.text
         btnSearch.setTitle(item, for: .normal)
          btnSearch.setTitleColor(.black, for: .normal)
         modernSearchBar.isHidden = true
+        modernSearchBar.resignFirstResponder()
         searchView.isHidden = true
+        
     }
     func onClickItemSuggestionsView(item: String) {
         print("User touched this item: "+item)
@@ -90,6 +97,7 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
         modernSearchBar.text = item
         modernSearchBar.closeSuggestionsView()
         modernSearchBar.isHidden = true
+        modernSearchBar.resignFirstResponder()
     }
     
     ///Called if you use Custom Item suggestion list
@@ -102,6 +110,7 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
         print("User touched shadowView")
         searchView.isHidden = true
         modernSearchBar.isHidden = true
+        modernSearchBar.resignFirstResponder()
     }
 //    func SetSearchBar() {
 //        let demoCategories = ["Menu", "Animation", "Transition", "TableView", "CollectionView", "Indicator", "Alert", "UIView", "UITextfield", "UITableView", "Swift", "iOS", "Android"]
@@ -228,13 +237,13 @@ class CheckViewConroller: UIViewController, CalendarViewControllerDelegate,Moder
     
     @IBAction func searchBarTextDidBeginEditing() {
         searchView.isHidden = false
-        searchView.frame = CGRect(x: 0, y: 69, width: self.view.bounds.width, height: self.view.bounds.height-69)
-        searchView.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 0.9)
+//        searchView.frame = CGRect(x: 0, y: 69, width: self.view.bounds.width, height: self.view.bounds.height-69)
+//        searchView.backgroundColor = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 0.95)
         modernSearchBar.isHidden = false
       //  modernSearchBar.clipsToBounds = true
-        modernSearchBar.becomeFirstResponder()
-      // modernSearchBar.frame = CGRect(x: 0, y: 5, width: self.view.bounds.width, height: 44)
-         SetSearchBar()
+        //modernSearchBar.becomeFirstResponder()
+      //  SetSearchBar()
+
     }
     
     func calendarViewController(_ controller: CJCalendarViewController!, didSelectActionYear year: String!, month: String!, day: String!) {
