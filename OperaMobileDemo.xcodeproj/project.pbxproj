@@ -31,15 +31,6 @@
 		60F1D4411F8C97EA00B7DB70 /* HotelListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */; };
 		60F1D4431F8CB23600B7DB70 /* HotelDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */; };
 		60F3367C1F79EFBC00481A10 /* CheckViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */; };
-		60F4A4DB1F78E2B200385A30 /* CJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */; };
-		60F4A4DC1F78E2B200385A30 /* CJMonthDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */; };
-		60F4A4DD1F78E2B200385A30 /* CJYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */; };
-		60F4A4DE1F78E2B200385A30 /* CJUseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D01F78E2B200385A30 /* CJUseTime.m */; };
-		60F4A4DF1F78E2B200385A30 /* CJDecisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D31F78E2B200385A30 /* CJDecisionView.m */; };
-		60F4A4E01F78E2B200385A30 /* CJMonthDayCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */; };
-		60F4A4E11F78E2B200385A30 /* CJMonthDayCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */; };
-		60F4A4E21F78E2B200385A30 /* CJSelectTimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */; };
-		60F4A4E31F78E2B200385A30 /* CJShowTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */; };
 		60F4A4E51F78FFF400385A30 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E41F78FFF400385A30 /* CalendarVC.swift */; };
 		60F4A4E71F79090D00385A30 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E61F79090D00385A30 /* service.swift */; };
 		60F889B81F7A3E5C00FBD656 /* DateStrFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */; };
@@ -95,25 +86,25 @@
 		60F1B71D1F7A082500E62479 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelListTableCell.swift; sourceTree = "<group>"; };
 		60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelDetailVC.swift; sourceTree = "<group>"; };
+		60F23DB51F905B07007097A2 /* CJCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJCalendarViewController.h; sourceTree = "<group>"; };
+		60F23DB61F905B07007097A2 /* CJCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCalendarViewController.m; sourceTree = "<group>"; };
+		60F23DB71F905B07007097A2 /* CJMonthDayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayViewController.h; sourceTree = "<group>"; };
+		60F23DB81F905B07007097A2 /* CJMonthDayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayViewController.m; sourceTree = "<group>"; };
+		60F23DB91F905B07007097A2 /* CJYearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJYearViewController.h; sourceTree = "<group>"; };
+		60F23DBA1F905B07007097A2 /* CJYearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJYearViewController.m; sourceTree = "<group>"; };
+		60F23DBC1F905B07007097A2 /* CJUseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJUseTime.h; sourceTree = "<group>"; };
+		60F23DBD1F905B07007097A2 /* CJUseTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJUseTime.m; sourceTree = "<group>"; };
+		60F23DBF1F905B07007097A2 /* CJDecisionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJDecisionView.h; sourceTree = "<group>"; };
+		60F23DC01F905B07007097A2 /* CJDecisionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJDecisionView.m; sourceTree = "<group>"; };
+		60F23DC11F905B07007097A2 /* CJMonthDayCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayCollectionCell.h; sourceTree = "<group>"; };
+		60F23DC21F905B07007097A2 /* CJMonthDayCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayCollectionCell.m; sourceTree = "<group>"; };
+		60F23DC31F905B07007097A2 /* CJMonthDayCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CJMonthDayCollectionCell.xib; sourceTree = "<group>"; };
+		60F23DC41F905B07007097A2 /* CJSelectTimeScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJSelectTimeScrollView.h; sourceTree = "<group>"; };
+		60F23DC51F905B07007097A2 /* CJSelectTimeScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSelectTimeScrollView.m; sourceTree = "<group>"; };
+		60F23DC61F905B07007097A2 /* CJShowTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJShowTimeView.h; sourceTree = "<group>"; };
+		60F23DC71F905B07007097A2 /* CJShowTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJShowTimeView.m; sourceTree = "<group>"; };
 		60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewConroller.swift; sourceTree = "<group>"; };
 		60F4A43C1F78DAB700385A30 /* CJCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CJCalendar; sourceTree = "<group>"; };
-		60F4A4C81F78E2B200385A30 /* CJCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCalendarViewController.h; sourceTree = "<group>"; };
-		60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCalendarViewController.m; sourceTree = "<group>"; };
-		60F4A4CA1F78E2B200385A30 /* CJMonthDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMonthDayViewController.h; sourceTree = "<group>"; };
-		60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayViewController.m; sourceTree = "<group>"; };
-		60F4A4CC1F78E2B200385A30 /* CJYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJYearViewController.h; sourceTree = "<group>"; };
-		60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJYearViewController.m; sourceTree = "<group>"; };
-		60F4A4CF1F78E2B200385A30 /* CJUseTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJUseTime.h; sourceTree = "<group>"; };
-		60F4A4D01F78E2B200385A30 /* CJUseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJUseTime.m; sourceTree = "<group>"; };
-		60F4A4D21F78E2B200385A30 /* CJDecisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDecisionView.h; sourceTree = "<group>"; };
-		60F4A4D31F78E2B200385A30 /* CJDecisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDecisionView.m; sourceTree = "<group>"; };
-		60F4A4D41F78E2B200385A30 /* CJMonthDayCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMonthDayCollectionCell.h; sourceTree = "<group>"; };
-		60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayCollectionCell.m; sourceTree = "<group>"; };
-		60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJMonthDayCollectionCell.xib; sourceTree = "<group>"; };
-		60F4A4D71F78E2B200385A30 /* CJSelectTimeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSelectTimeScrollView.h; sourceTree = "<group>"; };
-		60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSelectTimeScrollView.m; sourceTree = "<group>"; };
-		60F4A4D91F78E2B200385A30 /* CJShowTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJShowTimeView.h; sourceTree = "<group>"; };
-		60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJShowTimeView.m; sourceTree = "<group>"; };
 		60F4A4E41F78FFF400385A30 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		60F4A4E61F79090D00385A30 /* service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
 		60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateStrFormat.swift; sourceTree = "<group>"; };
@@ -160,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				6018D7451F78B31F005935BE /* Podfile */,
-				60F4A4C61F78E2B200385A30 /* calendar */,
+				60F23DB31F905B07007097A2 /* calendar */,
 				6018D7161F78B30A005935BE /* OperaMobileDemo */,
 				6018D72B1F78B30B005935BE /* OperaMobileDemoTests */,
 				6018D7361F78B30B005935BE /* OperaMobileDemoUITests */,
@@ -255,51 +246,51 @@
 			name = model;
 			sourceTree = "<group>";
 		};
-		60F4A4C61F78E2B200385A30 /* calendar */ = {
+		60F23DB31F905B07007097A2 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
-				60F4A4C71F78E2B200385A30 /* controller */,
-				60F4A4CE1F78E2B200385A30 /* service */,
-				60F4A4D11F78E2B200385A30 /* view */,
+				60F23DB41F905B07007097A2 /* controller */,
+				60F23DBB1F905B07007097A2 /* service */,
+				60F23DBE1F905B07007097A2 /* view */,
 			);
 			name = calendar;
 			path = CJCalendar/CJCalendar/calendar;
 			sourceTree = "<group>";
 		};
-		60F4A4C71F78E2B200385A30 /* controller */ = {
+		60F23DB41F905B07007097A2 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				60F4A4C81F78E2B200385A30 /* CJCalendarViewController.h */,
-				60F4A4C91F78E2B200385A30 /* CJCalendarViewController.m */,
-				60F4A4CA1F78E2B200385A30 /* CJMonthDayViewController.h */,
-				60F4A4CB1F78E2B200385A30 /* CJMonthDayViewController.m */,
-				60F4A4CC1F78E2B200385A30 /* CJYearViewController.h */,
-				60F4A4CD1F78E2B200385A30 /* CJYearViewController.m */,
+				60F23DB51F905B07007097A2 /* CJCalendarViewController.h */,
+				60F23DB61F905B07007097A2 /* CJCalendarViewController.m */,
+				60F23DB71F905B07007097A2 /* CJMonthDayViewController.h */,
+				60F23DB81F905B07007097A2 /* CJMonthDayViewController.m */,
+				60F23DB91F905B07007097A2 /* CJYearViewController.h */,
+				60F23DBA1F905B07007097A2 /* CJYearViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
 		};
-		60F4A4CE1F78E2B200385A30 /* service */ = {
+		60F23DBB1F905B07007097A2 /* service */ = {
 			isa = PBXGroup;
 			children = (
-				60F4A4CF1F78E2B200385A30 /* CJUseTime.h */,
-				60F4A4D01F78E2B200385A30 /* CJUseTime.m */,
+				60F23DBC1F905B07007097A2 /* CJUseTime.h */,
+				60F23DBD1F905B07007097A2 /* CJUseTime.m */,
 			);
 			path = service;
 			sourceTree = "<group>";
 		};
-		60F4A4D11F78E2B200385A30 /* view */ = {
+		60F23DBE1F905B07007097A2 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				60F4A4D21F78E2B200385A30 /* CJDecisionView.h */,
-				60F4A4D31F78E2B200385A30 /* CJDecisionView.m */,
-				60F4A4D41F78E2B200385A30 /* CJMonthDayCollectionCell.h */,
-				60F4A4D51F78E2B200385A30 /* CJMonthDayCollectionCell.m */,
-				60F4A4D61F78E2B200385A30 /* CJMonthDayCollectionCell.xib */,
-				60F4A4D71F78E2B200385A30 /* CJSelectTimeScrollView.h */,
-				60F4A4D81F78E2B200385A30 /* CJSelectTimeScrollView.m */,
-				60F4A4D91F78E2B200385A30 /* CJShowTimeView.h */,
-				60F4A4DA1F78E2B200385A30 /* CJShowTimeView.m */,
+				60F23DBF1F905B07007097A2 /* CJDecisionView.h */,
+				60F23DC01F905B07007097A2 /* CJDecisionView.m */,
+				60F23DC11F905B07007097A2 /* CJMonthDayCollectionCell.h */,
+				60F23DC21F905B07007097A2 /* CJMonthDayCollectionCell.m */,
+				60F23DC31F905B07007097A2 /* CJMonthDayCollectionCell.xib */,
+				60F23DC41F905B07007097A2 /* CJSelectTimeScrollView.h */,
+				60F23DC51F905B07007097A2 /* CJSelectTimeScrollView.m */,
+				60F23DC61F905B07007097A2 /* CJShowTimeView.h */,
+				60F23DC71F905B07007097A2 /* CJShowTimeView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -436,7 +427,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6018D7221F78B30A005935BE /* LaunchScreen.storyboard in Resources */,
-				60F4A4E11F78E2B200385A30 /* CJMonthDayCollectionCell.xib in Resources */,
 				6018D71F1F78B30A005935BE /* Assets.xcassets in Resources */,
 				6018D7461F78B31F005935BE /* Podfile in Resources */,
 				6018D71D1F78B30A005935BE /* Main.storyboard in Resources */,
@@ -530,20 +520,14 @@
 			files = (
 				60E4F4501F7CE91900F785A0 /* NavigationDrawerVC.swift in Sources */,
 				6030BC5A1F8DC2FB005CF7A1 /* RoomInfo.swift in Sources */,
-				60F4A4DE1F78E2B200385A30 /* CJUseTime.m in Sources */,
 				6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */,
 				60F4A4E71F79090D00385A30 /* service.swift in Sources */,
-				60F4A4DF1F78E2B200385A30 /* CJDecisionView.m in Sources */,
 				600C407D1F8B59A700487E44 /* DropDownMenu_Test.swift in Sources */,
 				604827681F7B7E8700ED64B2 /* AlartView.swift in Sources */,
 				60F4A4E51F78FFF400385A30 /* CalendarVC.swift in Sources */,
 				60F1D4411F8C97EA00B7DB70 /* HotelListTableCell.swift in Sources */,
 				6018D71A1F78B30A005935BE /* ViewController.swift in Sources */,
 				60F1B71E1F7A082500E62479 /* SettingView.swift in Sources */,
-				60F4A4E01F78E2B200385A30 /* CJMonthDayCollectionCell.m in Sources */,
-				60F4A4E31F78E2B200385A30 /* CJShowTimeView.m in Sources */,
-				60F4A4E21F78E2B200385A30 /* CJSelectTimeScrollView.m in Sources */,
-				60F4A4DD1F78E2B200385A30 /* CJYearViewController.m in Sources */,
 				60E4F4541F7CEBA100F785A0 /* NavigationDrawerOptions.swift in Sources */,
 				60F3367C1F79EFBC00481A10 /* CheckViewConroller.swift in Sources */,
 				60E4F4521F7CEAFF00F785A0 /* NagivationDrawer.swift in Sources */,
@@ -551,11 +535,9 @@
 				60F1D4431F8CB23600B7DB70 /* HotelDetailVC.swift in Sources */,
 				603FCA471F8C7D78001D6DF0 /* HotelInfo.swift in Sources */,
 				603FCA451F8C7878001D6DF0 /* DropMenus.swift in Sources */,
-				60F4A4DC1F78E2B200385A30 /* CJMonthDayViewController.m in Sources */,
 				6018D7181F78B30A005935BE /* AppDelegate.swift in Sources */,
 				60EECC191F8CBD9500866A4C /* HotelDetailTableCell.swift in Sources */,
 				60F889B81F7A3E5C00FBD656 /* DateStrFormat.swift in Sources */,
-				60F4A4DB1F78E2B200385A30 /* CJCalendarViewController.m in Sources */,
 				60EFA1921F8B3A930092B05C /* HotelListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,7 +639,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -699,7 +684,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
