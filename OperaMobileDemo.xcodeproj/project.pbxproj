@@ -34,6 +34,23 @@
 		60F4A4E51F78FFF400385A30 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E41F78FFF400385A30 /* CalendarVC.swift */; };
 		60F4A4E71F79090D00385A30 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A4E61F79090D00385A30 /* service.swift */; };
 		60F889B81F7A3E5C00FBD656 /* DateStrFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */; };
+		C2F413381F90627E00999056 /* CJCalendarViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413251F90611E00999056 /* CJCalendarViewController.h */; };
+		C2F413391F90627E00999056 /* CJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413261F90611E00999056 /* CJCalendarViewController.m */; };
+		C2F4133A1F90627E00999056 /* CJMonthDayViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413271F90611E00999056 /* CJMonthDayViewController.h */; };
+		C2F4133B1F90627E00999056 /* CJMonthDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413281F90611E00999056 /* CJMonthDayViewController.m */; };
+		C2F4133C1F90627E00999056 /* CJYearViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413291F90611E00999056 /* CJYearViewController.h */; };
+		C2F4133D1F90627E00999056 /* CJYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F4132A1F90611E00999056 /* CJYearViewController.m */; };
+		C2F4133E1F90627E00999056 /* CJUseTime.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F4132C1F90611E00999056 /* CJUseTime.h */; };
+		C2F4133F1F90627E00999056 /* CJUseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F4132D1F90611E00999056 /* CJUseTime.m */; };
+		C2F413401F90627E00999056 /* CJDecisionView.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F4132F1F90611E00999056 /* CJDecisionView.h */; };
+		C2F413411F90627E00999056 /* CJDecisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413301F90611E00999056 /* CJDecisionView.m */; };
+		C2F413421F90627E00999056 /* CJMonthDayCollectionCell.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413311F90611E00999056 /* CJMonthDayCollectionCell.h */; };
+		C2F413431F90627E00999056 /* CJMonthDayCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413321F90611E00999056 /* CJMonthDayCollectionCell.m */; };
+		C2F413441F90627E00999056 /* CJMonthDayCollectionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = C2F413331F90611E00999056 /* CJMonthDayCollectionCell.xib */; };
+		C2F413451F90627E00999056 /* CJSelectTimeScrollView.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413341F90611E00999056 /* CJSelectTimeScrollView.h */; };
+		C2F413461F90627E00999056 /* CJSelectTimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413351F90611E00999056 /* CJSelectTimeScrollView.m */; };
+		C2F413471F90627E00999056 /* CJShowTimeView.h in Sources */ = {isa = PBXBuildFile; fileRef = C2F413361F90611E00999056 /* CJShowTimeView.h */; };
+		C2F413481F90627E00999056 /* CJShowTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F413371F90611E00999056 /* CJShowTimeView.m */; };
 		D4268B1856080A224F768F55 /* Pods_OperaMobileDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB5DA069115851A90BFAA66 /* Pods_OperaMobileDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,23 +103,6 @@
 		60F1B71D1F7A082500E62479 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		60F1D4401F8C97EA00B7DB70 /* HotelListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelListTableCell.swift; sourceTree = "<group>"; };
 		60F1D4421F8CB23600B7DB70 /* HotelDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelDetailVC.swift; sourceTree = "<group>"; };
-		60F23DB51F905B07007097A2 /* CJCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJCalendarViewController.h; sourceTree = "<group>"; };
-		60F23DB61F905B07007097A2 /* CJCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCalendarViewController.m; sourceTree = "<group>"; };
-		60F23DB71F905B07007097A2 /* CJMonthDayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayViewController.h; sourceTree = "<group>"; };
-		60F23DB81F905B07007097A2 /* CJMonthDayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayViewController.m; sourceTree = "<group>"; };
-		60F23DB91F905B07007097A2 /* CJYearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJYearViewController.h; sourceTree = "<group>"; };
-		60F23DBA1F905B07007097A2 /* CJYearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJYearViewController.m; sourceTree = "<group>"; };
-		60F23DBC1F905B07007097A2 /* CJUseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJUseTime.h; sourceTree = "<group>"; };
-		60F23DBD1F905B07007097A2 /* CJUseTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJUseTime.m; sourceTree = "<group>"; };
-		60F23DBF1F905B07007097A2 /* CJDecisionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJDecisionView.h; sourceTree = "<group>"; };
-		60F23DC01F905B07007097A2 /* CJDecisionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJDecisionView.m; sourceTree = "<group>"; };
-		60F23DC11F905B07007097A2 /* CJMonthDayCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayCollectionCell.h; sourceTree = "<group>"; };
-		60F23DC21F905B07007097A2 /* CJMonthDayCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayCollectionCell.m; sourceTree = "<group>"; };
-		60F23DC31F905B07007097A2 /* CJMonthDayCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CJMonthDayCollectionCell.xib; sourceTree = "<group>"; };
-		60F23DC41F905B07007097A2 /* CJSelectTimeScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJSelectTimeScrollView.h; sourceTree = "<group>"; };
-		60F23DC51F905B07007097A2 /* CJSelectTimeScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSelectTimeScrollView.m; sourceTree = "<group>"; };
-		60F23DC61F905B07007097A2 /* CJShowTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJShowTimeView.h; sourceTree = "<group>"; };
-		60F23DC71F905B07007097A2 /* CJShowTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJShowTimeView.m; sourceTree = "<group>"; };
 		60F3367B1F79EFBC00481A10 /* CheckViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewConroller.swift; sourceTree = "<group>"; };
 		60F4A43C1F78DAB700385A30 /* CJCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CJCalendar; sourceTree = "<group>"; };
 		60F4A4E41F78FFF400385A30 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
@@ -110,6 +110,23 @@
 		60F889B71F7A3E5C00FBD656 /* DateStrFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateStrFormat.swift; sourceTree = "<group>"; };
 		816A326D93583EABF8D8C737 /* Pods-OperaMobileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OperaMobileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B5A206F089314CA589424031 /* Pods-OperaMobileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OperaMobileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OperaMobileDemo/Pods-OperaMobileDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F413251F90611E00999056 /* CJCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJCalendarViewController.h; sourceTree = "<group>"; };
+		C2F413261F90611E00999056 /* CJCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCalendarViewController.m; sourceTree = "<group>"; };
+		C2F413271F90611E00999056 /* CJMonthDayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayViewController.h; sourceTree = "<group>"; };
+		C2F413281F90611E00999056 /* CJMonthDayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayViewController.m; sourceTree = "<group>"; };
+		C2F413291F90611E00999056 /* CJYearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJYearViewController.h; sourceTree = "<group>"; };
+		C2F4132A1F90611E00999056 /* CJYearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJYearViewController.m; sourceTree = "<group>"; };
+		C2F4132C1F90611E00999056 /* CJUseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJUseTime.h; sourceTree = "<group>"; };
+		C2F4132D1F90611E00999056 /* CJUseTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJUseTime.m; sourceTree = "<group>"; };
+		C2F4132F1F90611E00999056 /* CJDecisionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJDecisionView.h; sourceTree = "<group>"; };
+		C2F413301F90611E00999056 /* CJDecisionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJDecisionView.m; sourceTree = "<group>"; };
+		C2F413311F90611E00999056 /* CJMonthDayCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMonthDayCollectionCell.h; sourceTree = "<group>"; };
+		C2F413321F90611E00999056 /* CJMonthDayCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMonthDayCollectionCell.m; sourceTree = "<group>"; };
+		C2F413331F90611E00999056 /* CJMonthDayCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CJMonthDayCollectionCell.xib; sourceTree = "<group>"; };
+		C2F413341F90611E00999056 /* CJSelectTimeScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJSelectTimeScrollView.h; sourceTree = "<group>"; };
+		C2F413351F90611E00999056 /* CJSelectTimeScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSelectTimeScrollView.m; sourceTree = "<group>"; };
+		C2F413361F90611E00999056 /* CJShowTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJShowTimeView.h; sourceTree = "<group>"; };
+		C2F413371F90611E00999056 /* CJShowTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJShowTimeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				6018D7451F78B31F005935BE /* Podfile */,
-				60F23DB31F905B07007097A2 /* calendar */,
+				C2F413231F90611E00999056 /* calendar */,
 				6018D7161F78B30A005935BE /* OperaMobileDemo */,
 				6018D72B1F78B30B005935BE /* OperaMobileDemoTests */,
 				6018D7361F78B30B005935BE /* OperaMobileDemoUITests */,
@@ -246,55 +263,6 @@
 			name = model;
 			sourceTree = "<group>";
 		};
-		60F23DB31F905B07007097A2 /* calendar */ = {
-			isa = PBXGroup;
-			children = (
-				60F23DB41F905B07007097A2 /* controller */,
-				60F23DBB1F905B07007097A2 /* service */,
-				60F23DBE1F905B07007097A2 /* view */,
-			);
-			name = calendar;
-			path = CJCalendar/CJCalendar/calendar;
-			sourceTree = "<group>";
-		};
-		60F23DB41F905B07007097A2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				60F23DB51F905B07007097A2 /* CJCalendarViewController.h */,
-				60F23DB61F905B07007097A2 /* CJCalendarViewController.m */,
-				60F23DB71F905B07007097A2 /* CJMonthDayViewController.h */,
-				60F23DB81F905B07007097A2 /* CJMonthDayViewController.m */,
-				60F23DB91F905B07007097A2 /* CJYearViewController.h */,
-				60F23DBA1F905B07007097A2 /* CJYearViewController.m */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		60F23DBB1F905B07007097A2 /* service */ = {
-			isa = PBXGroup;
-			children = (
-				60F23DBC1F905B07007097A2 /* CJUseTime.h */,
-				60F23DBD1F905B07007097A2 /* CJUseTime.m */,
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
-		60F23DBE1F905B07007097A2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				60F23DBF1F905B07007097A2 /* CJDecisionView.h */,
-				60F23DC01F905B07007097A2 /* CJDecisionView.m */,
-				60F23DC11F905B07007097A2 /* CJMonthDayCollectionCell.h */,
-				60F23DC21F905B07007097A2 /* CJMonthDayCollectionCell.m */,
-				60F23DC31F905B07007097A2 /* CJMonthDayCollectionCell.xib */,
-				60F23DC41F905B07007097A2 /* CJSelectTimeScrollView.h */,
-				60F23DC51F905B07007097A2 /* CJSelectTimeScrollView.m */,
-				60F23DC61F905B07007097A2 /* CJShowTimeView.h */,
-				60F23DC71F905B07007097A2 /* CJShowTimeView.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		60F889B61F7A36BF00FBD656 /* service */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +278,54 @@
 				816A326D93583EABF8D8C737 /* Pods-OperaMobileDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2F413231F90611E00999056 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C2F413241F90611E00999056 /* controller */,
+				C2F4132B1F90611E00999056 /* service */,
+				C2F4132E1F90611E00999056 /* view */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		C2F413241F90611E00999056 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2F413251F90611E00999056 /* CJCalendarViewController.h */,
+				C2F413261F90611E00999056 /* CJCalendarViewController.m */,
+				C2F413271F90611E00999056 /* CJMonthDayViewController.h */,
+				C2F413281F90611E00999056 /* CJMonthDayViewController.m */,
+				C2F413291F90611E00999056 /* CJYearViewController.h */,
+				C2F4132A1F90611E00999056 /* CJYearViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C2F4132B1F90611E00999056 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				C2F4132C1F90611E00999056 /* CJUseTime.h */,
+				C2F4132D1F90611E00999056 /* CJUseTime.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		C2F4132E1F90611E00999056 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C2F4132F1F90611E00999056 /* CJDecisionView.h */,
+				C2F413301F90611E00999056 /* CJDecisionView.m */,
+				C2F413311F90611E00999056 /* CJMonthDayCollectionCell.h */,
+				C2F413321F90611E00999056 /* CJMonthDayCollectionCell.m */,
+				C2F413331F90611E00999056 /* CJMonthDayCollectionCell.xib */,
+				C2F413341F90611E00999056 /* CJSelectTimeScrollView.h */,
+				C2F413351F90611E00999056 /* CJSelectTimeScrollView.m */,
+				C2F413361F90611E00999056 /* CJShowTimeView.h */,
+				C2F413371F90611E00999056 /* CJShowTimeView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,6 +534,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F413381F90627E00999056 /* CJCalendarViewController.h in Sources */,
+				C2F413391F90627E00999056 /* CJCalendarViewController.m in Sources */,
+				C2F4133A1F90627E00999056 /* CJMonthDayViewController.h in Sources */,
+				C2F4133B1F90627E00999056 /* CJMonthDayViewController.m in Sources */,
+				C2F4133C1F90627E00999056 /* CJYearViewController.h in Sources */,
+				C2F4133D1F90627E00999056 /* CJYearViewController.m in Sources */,
+				C2F4133E1F90627E00999056 /* CJUseTime.h in Sources */,
+				C2F4133F1F90627E00999056 /* CJUseTime.m in Sources */,
+				C2F413401F90627E00999056 /* CJDecisionView.h in Sources */,
+				C2F413411F90627E00999056 /* CJDecisionView.m in Sources */,
+				C2F413421F90627E00999056 /* CJMonthDayCollectionCell.h in Sources */,
+				C2F413431F90627E00999056 /* CJMonthDayCollectionCell.m in Sources */,
+				C2F413441F90627E00999056 /* CJMonthDayCollectionCell.xib in Sources */,
+				C2F413451F90627E00999056 /* CJSelectTimeScrollView.h in Sources */,
+				C2F413461F90627E00999056 /* CJSelectTimeScrollView.m in Sources */,
+				C2F413471F90627E00999056 /* CJShowTimeView.h in Sources */,
+				C2F413481F90627E00999056 /* CJShowTimeView.m in Sources */,
 				60E4F4501F7CE91900F785A0 /* NavigationDrawerVC.swift in Sources */,
 				6030BC5A1F8DC2FB005CF7A1 /* RoomInfo.swift in Sources */,
 				6040C42B1F79E94F007DD475 /* ScrollView.swift in Sources */,
@@ -707,7 +740,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OperaMobileDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -729,7 +762,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oracle.OperaMobileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "OperaMobileDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OperaMobileDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
